@@ -1,4 +1,5 @@
 print("hello python")
 name = input("please enter your name: ")
+#print(len(name))
+name = name.replace(" ", "") 
 print(len(name))
-
